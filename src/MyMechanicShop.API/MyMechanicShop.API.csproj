@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyMechanicShop.Application\MyMechanicShop.Application.csproj" />
+    <ProjectReference Include="..\MyMechanicShop.Infrastructure\MyMechanicShop.Infrastructure.csproj" />
+    <ProjectReference Include="..\MyMechanicShop.Contracts\MyMechanicShop.Contracts.csproj" />
+    <ProjectReference Include="..\MyMechanicShop.Client\MyMechanicShop.Client.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
