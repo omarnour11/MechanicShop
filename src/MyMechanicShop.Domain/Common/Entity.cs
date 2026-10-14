@@ -22,6 +22,14 @@ public abstract class Entity
     {
         _domainEvents.Remove(domainEvent);
     }
+
+    public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents;
+
+    public void ClearDomainEvents()
+    {
+        _domainEvents.Clear();
+    }
+
     public void ClearDomainEvent()
     {
        _domainEvents.Clear();
